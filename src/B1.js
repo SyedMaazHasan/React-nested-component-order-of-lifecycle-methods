@@ -8,7 +8,7 @@ class B1 extends Component {
     console.log("component did mount in B1");
   }
   shouldComponentUpdate() {
-    console.log("component should update in B1");
+    // console.log("component should update in B1");
     return true;
   }
   componentWillUpdate() {
@@ -20,7 +20,7 @@ class B1 extends Component {
   render() {
     return (
       <div>
-        <h1>maaz B1</h1>
+        <h5>maaz B1</h5>
       </div>
     );
   }

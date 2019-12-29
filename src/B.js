@@ -10,7 +10,7 @@ class B extends Component {
     console.log("component did mount in B");
   }
   shouldComponentUpdate() {
-    console.log("component should update in B");
+    // console.log("component should update in B");
     return true;
   }
   componentWillUpdate() {
@@ -22,7 +22,7 @@ class B extends Component {
   render() {
     return (
       <div>
-        <h1>maaz B</h1>
+        <h3>maaz B</h3>
         <B1></B1>
         <B2></B2>
       </div>
