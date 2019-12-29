@@ -34,7 +34,7 @@ class RootComp extends Component {
         <A></A>
         <B></B>
 
-        <button onClick={this.clicked}>clickme</button>
+        <button onClick={this.clicked}>click me to go in updation phase</button>
       </div>
     );
   }
