@@ -20,7 +20,7 @@ class A1 extends Component {
     console.log("component did update in A1");
   }
   render() {
-    return <h5>maaz A1</h5>;
+    return <h5>A1</h5>;
   }
 }
 

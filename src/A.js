@@ -23,7 +23,7 @@ class A extends Component {
   render() {
     return (
       <div>
-        <h3>maaz A</h3>
+        <h3>A calling "A1" & "A2"</h3>
 
         <A1></A1>
         <A2></A2>

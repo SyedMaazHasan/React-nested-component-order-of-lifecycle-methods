@@ -20,7 +20,7 @@ class B1 extends Component {
   render() {
     return (
       <div>
-        <h5>maaz B1</h5>
+        <h5>B1</h5>
       </div>
     );
   }

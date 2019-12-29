@@ -20,7 +20,7 @@ class A2 extends Component {
   render() {
     return (
       <div>
-        <h5>maaz A2</h5>
+        <h5>A2</h5>
       </div>
     );
   }

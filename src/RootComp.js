@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import logo from "./nestedComponents.jpg";
+//import logo from "./nestedComponents.jpeg";
 import A from "./A";
 import B from "./B";
 class RootComp extends Component {
@@ -30,7 +32,8 @@ class RootComp extends Component {
   render() {
     return (
       <div>
-        <h1>Root Component</h1>
+        <img src={logo} width="500" height="300" />
+        <h1>Root Component calling "A" & "B"</h1>
         <A></A>
         <B></B>
 
